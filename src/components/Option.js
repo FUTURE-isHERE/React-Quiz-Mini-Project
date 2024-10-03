@@ -1,6 +1,4 @@
 function Option({ question, dispatch, answer }) {
-  console.log("question", question);
-
   const hasAnswered = answer !== null;
 
   return (
